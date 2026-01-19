@@ -49,17 +49,8 @@ else
     exit 1
 fi
 
-# Test 4: Check using-superpowers skill exists (critical for bootstrap)
-echo "Test 4: Checking using-superpowers skill (required for bootstrap)..."
-if [ -f "$HOME/.config/opencode/superpowers/skills/using-superpowers/SKILL.md" ]; then
-    echo "  [PASS] using-superpowers skill exists"
-else
-    echo "  [FAIL] using-superpowers skill not found (required for bootstrap)"
-    exit 1
-fi
-
-# Test 5: Verify plugin JavaScript syntax (basic check)
-echo "Test 5: Checking plugin JavaScript syntax..."
+# Test 4: Verify plugin JavaScript syntax (basic check)
+echo "Test 4: Checking plugin JavaScript syntax..."
 plugin_file="$HOME/.config/opencode/superpowers/.opencode/plugin/superpowers.js"
 if node --check "$plugin_file" 2>/dev/null; then
     echo "  [PASS] Plugin JavaScript syntax is valid"
@@ -68,8 +59,8 @@ else
     exit 1
 fi
 
-# Test 6: Verify personal test skill was created
-echo "Test 6: Checking test fixtures..."
+# Test 5: Verify personal test skill was created
+echo "Test 5: Checking test fixtures..."
 if [ -f "$HOME/.config/opencode/skills/personal-test/SKILL.md" ]; then
     echo "  [PASS] Personal test skill fixture created"
 else

@@ -119,7 +119,6 @@ Fetch and follow instructions from https://raw.githubusercontent.com/jonrad/supe
 
 **Meta**
 - **writing-skills** - Create new skills following best practices (includes testing methodology)
-- **using-superpowers** - Introduction to the skills system
 
 ## Philosophy
 

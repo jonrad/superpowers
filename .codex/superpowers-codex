@@ -108,15 +108,6 @@ function runBootstrap() {
     console.log('');
     console.log('---');
     console.log('');
-
-    // Load the using-superpowers skill automatically
-    console.log('## Auto-loading superpowers:using-superpowers skill:');
-    console.log('');
-    runUseSkill('superpowers:using-superpowers');
-
-    console.log('');
-    console.log('---');
-    console.log('');
     console.log('# Bootstrap Complete!');
     console.log('# You now have access to all superpowers skills.');
     console.log('# Use "superpowers-codex use-skill <skill>" to load and apply skills.');

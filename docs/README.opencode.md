@@ -205,8 +205,7 @@ Restart OpenCode to load the updates.
 ### Context not injecting
 
 1. Check if chat.message hook is working
-2. Verify using-superpowers skill exists
-3. Check OpenCode version (requires recent version with plugin support)
+2. Check OpenCode version (requires recent version with plugin support)
 
 ## Getting Help
 
